@@ -1,11 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css" />
     <title>Document</title>
 </head>
 <body>
-    Test: Hello World!!!
+    <form>
+        <input type="checkbox">a</input>
+        <input type="checkbox">a</input>
+        <input type="checkbox">a</input>
+        <input type="checkbox">a</input>
+    </form>
+    <form>
+        <input type="radio">a</input>
+        <input type="radio">a</input>
+        <input type="radio">a</input>
+        <input type="radio">a</input>
+    </form>
+    <form>
+        <input type="date"/>
+        <br>
+        <textarea placeholder="자기소개"></textarea>
+    </form>
+    <div>------------------</div>
+    <form id="myForm">
+        이름 : <input type="text" name="name"><br>
+        <input type="submit"><br><br>
+    </form>
+    <div>롤 티어</div>
+    <select name="order" form="myForm">
+        <option value="abs">아브실</option>
+        <option value="gp">골플</option>
+        <option value="ed">에다</option>
+        <option value="mgm">마그마</option>
+    </select>
+
+    
+
 </body>
 </html>
